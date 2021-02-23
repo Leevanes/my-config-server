@@ -14,3 +14,12 @@ spring:
     encoding: UTF-8
     content-type: text/html
     mode: HTML5
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
