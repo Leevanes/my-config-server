@@ -1,0 +1,11 @@
+lib/
+bin/
+logs/
+target/
+classes/
+.settings/
+.project
+.classpath
+.DS_Store
+*.iml
+.idea/
