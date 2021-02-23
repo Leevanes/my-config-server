@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      label: master
+      server:
+        git:
+          uri: https://gitee.com/leevanes/springclou-version.git/
+          searchPaths: respo
+          username: leevanes@163.com
+          password: lifan931213
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
