@@ -16,6 +16,7 @@
         <module>hystrix-dashboard</module>
         <module>turbine</module>
         <module>zuul</module>
+        <module>interview</module>
     </modules>
     <packaging>pom</packaging>
 
