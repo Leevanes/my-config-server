@@ -23,3 +23,5 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
+
+feign.hystrix.enabled: true
